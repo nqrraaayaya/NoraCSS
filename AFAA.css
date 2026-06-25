@@ -20,7 +20,7 @@ BUT I recommend repeating patterns rather than full images. */
 @media screen and (min-width: 601px) { 
 body {
 background: url('https://i.imgur.com/HNcYxNS.jpeg') center center fixed;
-background-size: 120%;
+background-size: 150%;
 color: #HEX; } }
 
 @media screen and (max-width: 600px){
