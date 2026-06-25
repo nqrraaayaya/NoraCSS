@@ -43,25 +43,16 @@ box-shadow - a shadow behind the element itself. you usually want this set to no
 @import url('https://fonts.googleapis.com/css2?family=Aladin&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
  
 body {font-family: "Sour Gummy", sans-serif;
-  font-optical-sizing: auto;
   font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;}
+    font-style: normal;}
  
 .topbar {font-family: "Sour Gummy", sans-serif;
-  font-optical-sizing: auto;
   font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;}
+  font-style: normal;}
  
 .navbar {font-family: "Sour Gummy", sans-serif;
-  font-optical-sizing: auto;
   font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;}
+  font-style: normal;}
 
 /* BACKGROUNDS 
 The first one is for PC, the second is for mobile. You can also use an image in the second one
@@ -309,37 +300,37 @@ width: 24px !important; }
 
 button#label_currentChannel {
 border: none !important;
-background: rgba(240,212,212,0.5) !important; }
+background: rgba(189,241,245,0.8) !important; }
 
 div#chatMessageContainer {
 border: none !important; }
 
 .s-chat-message_timestamp {
-color: #f0d4d4 !important; }
+color: #39575c !important; }
 
 .s-chat-sidebar #fraChatChannelMenu,
 button.channelSwitcher, button.channelSwitcher.active {
-    background: #f0d4d4 !important;
-color: #eaa1a1 !important;	
+    background: #d9fcff !important;
+color: #1f3f42 !important;	
 border: none !important;
 border-radius: 0px !important;
 box-shadow: none !important; }
 
 div.emoteList.active {
   background: #HEX !important;
-  border: 1px solid #eeadad !important;
+  border: 2px solid #ade3ee !important;
   box-shadow: none !important;
 }
 div.emoteList.active::before {
 background: #HEX
 border-top: none !important;
-border: 1px solid #eeadad !important; }
+border: 2px solid #ade3ee !important; }
 
 /* PINNED MESSAGES - This will change the background color of where staff pin news */
 
 .s-chat-message__pinned {
-background-color: #bdf0f5 !important;
-color: #2dada5 !important;
+background-color: #bdf5df !important;
+color: #2ead91 !important;
 border: none !important; }
 
 /* Odd will show at the TOP of chat, even will show every other message under it. If you want both colors the same, do
@@ -351,10 +342,10 @@ color: #HEX !important;
 border-bottom: #HEX !important; }
 
 .s-chat-message:nth-child(even) {
-background: #f0d4d4 !important;
+background: #aadce4 !important;
 border: none !important; }
 .s-chat-message:nth-child(odd) {
-background: #ebc4c4 !important;
+background: #93cad3 !important;
 border: none !important; }
 
 /* This changes the color of pinged messages. Yes, it has to say background-color
@@ -364,12 +355,12 @@ may 8th: stop touchy */
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention {
 background-color: #f5e1bd !important;
 border-left: 6px solid #d5a156 !important;
-color: #d5a156 !important; }
+color: #bb8c48 !important; }
 
 /* This is the character counter, that displays X/150 */
 
 div#lblCharacterCounter {
-color: #362424 !important; }
+color: #243536 !important; }
 
 /* I can't remember what this does but I know things get weird if you touch it
 that means do NOT touch it.
