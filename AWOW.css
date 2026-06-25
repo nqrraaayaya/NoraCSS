@@ -40,7 +40,7 @@ box-shadow - a shadow behind the element itself. you usually want this set to no
  
 /* FONTS - Import from Google Fonts */
  
-@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Sour+Gummy:ital,wdth,wght@0,100..125,100..900;1,100..125,100..900&display=swap');
  
 body {font-family: "Sour Gummy", sans-serif;
   font-weight: <weight>;
