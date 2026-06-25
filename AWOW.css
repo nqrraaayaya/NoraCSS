@@ -43,15 +43,15 @@ box-shadow - a shadow behind the element itself. you usually want this set to no
 @import url('https://fonts.googleapis.com/css2?family=Aladin&family=Sour+Gummy:ital,wdth,wght@0,100..125,100..900;1,100..125,100..900&display=swap');
  
 body {font-family: "Sour Gummy", sans-serif;
-  font-weight: <weight>;
+  font-weight: <500>;
     font-style: normal;}
  
 .topbar {font-family: "Sour Gummy", sans-serif;
-  font-weight: <weight>;
+  font-weight: <500>;
   font-style: normal;}
  
 .navbar {font-family: "Sour Gummy", sans-serif;
-  font-weight: <weight>;
+  font-weight: <500>;
   font-style: normal;}
 
 /* BACKGROUNDS 
