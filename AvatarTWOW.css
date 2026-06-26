@@ -55,8 +55,8 @@ body {font-family: "Sour Gummy", sans-serif;
       "wdth" 100}
  
 .navbar {font-family: "Sour Gummy", sans-serif;
-  font-optical-sizing: 500;
-  font-weight: <weight>;
+  font-optical-sizing: auto;
+  font-weight: <500>;
   font-style: normal;
   font-variation-settings:
       "wdth" 100}
