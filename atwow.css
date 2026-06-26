@@ -47,7 +47,7 @@ box-shadow - a shadow behind the element itself. you usually want this set to no
 @import url('https://fonts.googleapis.com/css2?family=Aladin&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 </style>
 
-body {font-family: "Sour Gummy", sans-serif;
+.body {font-family: "Sour Gummy", sans-serif;
   font-optical-sizing: auto;
   font-weight: <500>;
   font-style: normal;
