@@ -55,8 +55,8 @@ body {font-family: "Sour Gummy", sans-serif;
       "wdth" 100}
  
 .navbar {font-family: "Sour Gummy", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <500>;
+  font-optical-sizing: 500;
+  font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
       "wdth" 100}
@@ -948,11 +948,13 @@ or fill out both i can't stop you but it'll be a clusterfuck */
 /* IF YOU WANT A CUSTOM CURSOR GO TO https://www.cursors-4u.com/
 AND COPY AND PASTE THE PROVIDED CODE ONCE YOU CLICK THE GET HTML/CSS CODE BUTTON
 DO IT BELOW THIS POINT BUT BEFORE THE CREDIT */
-/* Shiny Turquoise Star - https://www.cursors-4u.com/cursor/shiny-turquoise-star */
+
+/* Hermit Shell - https://www.cursors-4u.com/cursor/nat48 */
 * {
-  cursor: url('https://cdn.cursors-4u.net/css-previews/shiny-turquoise-star-f41261cb-css.webp') 0 0, auto !important;
+  cursor: url('https://cdn.cursors-4u.net/previews/hermit-shell-43fa6047-32.webp') 37 33, auto !important;
 }
-/* End www.Cursors-4U.com Code */	
+/* End www.Cursors-4U.com Code */
+	
 /* CREDIT - no touchy this part, the code will work just fine */
  
 .breadcrumb::after {
