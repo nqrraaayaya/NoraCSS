@@ -1,5 +1,3 @@
-AWOW CSS
-
 /* jester and katie's free css template -
 made based off of katie's v2 free css template / should be considered v3
 
@@ -39,28 +37,26 @@ box-shadow - a shadow behind the element itself. you usually want this set to no
 */
  
 /* FONTS - Import from Google Fonts */
-<!DOCTYPE html>
-<html>
-<body>
+ 
 @import url('https://fonts.googleapis.com/css2?family=Aladin&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
  
 body {font-family: "Sour Gummy", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: <500>;
   font-style: normal;
   font-variation-settings:
     "wdth" 100}
  
 .topbar {font-family: "Sour Gummy", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: <500>;
   font-style: normal;
   font-variation-settings:
       "wdth" 100}
  
 .navbar {font-family: "Sour Gummy", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: <500>;
   font-style: normal;
   font-variation-settings:
       "wdth" 100}
@@ -346,9 +342,10 @@ border: 2px solid #d3adee !important; }
 /* PINNED MESSAGES - This will change the background color of where staff pin news */
 
 .s-chat-message__pinned {
-background-color: #dcbdf5 !important;
-color: #8e2ead !important;
-border: none !important; }
+background-color: #f4dcbd !important;
+color: #91685a !important;
+border: solid 1px !important;
+color:#91685a !important}
 
 /* Odd will show at the TOP of chat, even will show every other message under it. If you want both colors the same, do
 not touch the even/odd specifications */ 
@@ -359,10 +356,10 @@ color: #240433 !important;
 border-bottom: #HEX !important; }
 
 .s-chat-message:nth-child(even) {
-background: #HEX !important;
+background: #733538 !important;
 border: none !important; }
 .s-chat-message:nth-child(odd) {
-background: #HEX !important;
+background: #874548 !important;
 border: none !important; }
 
 /* This changes the color of pinged messages. Yes, it has to say background-color
@@ -982,5 +979,3 @@ z-index: 100; }
             right: 22%;
         }
     }
-</body>
-</html>
