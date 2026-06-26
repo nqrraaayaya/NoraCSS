@@ -1,4 +1,7 @@
-ATWOW
+<!DOCTYPE html>
+<html>
+<body>
+/*ATWOW CSS */
 
 /* jester and katie's free css template -
 made based off of katie's v2 free css template / should be considered v3
@@ -39,10 +42,9 @@ box-shadow - a shadow behind the element itself. you usually want this set to no
 */
  
 /* FONTS - Import from Google Fonts */
- <!DOCTYPE html>
-<html>
-<body>
-@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import:url('https://fonts.googleapis.com/css2?family=Aladin&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
  
 body {font-family: "Sour Gummy", sans-serif;
   font-optical-sizing: auto;
