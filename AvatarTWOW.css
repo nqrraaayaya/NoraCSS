@@ -1,3 +1,5 @@
+ATWOW
+
 /* jester and katie's free css template -
 made based off of katie's v2 free css template / should be considered v3
 
@@ -388,14 +390,14 @@ div.left controls BOTH the dynasty, achievements, showcase, beetle book AND
 view breeding requests, view user log, and view attack history buttons */
  
 .feature {
-background: rgba(46,28,60,0.8) !important;
-color: #edd0ff !important;
-border: 7px double #eecfff !important;
+background: rgba(85,39,39,0.8) !important;
+color: #dd8c8c !important;
+border: 7px double #a26060 !important;
 border-radius: 10px !important;}
 
 div.left {
-background: rgba(72,44,83,0.8) !important;
-color: #bd96cc !important;
+background: rgba(83,44,44,0.8) !important;
+color: #cc9696 !important;
 border: none !important;
 border-radius: 5px !important; }
 
@@ -526,7 +528,7 @@ border-radius: 30%;
 overflow: hidden; }   
 table#player img {
 opacity: 1.0;
-    border: double 1px #754549;
+    border: none 1px #754549;
 border-radius: 15%; }
 
 /* LIODEN LOGO REPLACER - You can use any image, but the 192x120 size works best.
@@ -925,7 +927,7 @@ or fill out both i can't stop you but it'll be a clusterfuck */
 /* MEMBER ONLINE */
 .member-online {
     background: rgba(233,197,255,0);
-    content:url('https://i.imgur.com/C8TD6wK.png')!important;
+    content:url('https://i.imgur.com/UZQEKAT.png')!important;
 	border-radius: 0px;
     width:40px!important;
     height:40px;
