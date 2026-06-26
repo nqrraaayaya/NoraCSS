@@ -39,20 +39,31 @@ box-shadow - a shadow behind the element itself. you usually want this set to no
 */
  
 /* FONTS - Import from Google Fonts */
- 
-@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Sour+Gummy:ital,wdth,wght@0,100..125,100..900;1,100..125,100..900&display=swap');
+<!DOCTYPE html>
+<html>
+<body>
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
  
 body {font-family: "Sour Gummy", sans-serif;
-  font-weight: <500>;
-    font-style: normal;}
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100}
  
 .topbar {font-family: "Sour Gummy", sans-serif;
-  font-weight: <500>;
-  font-style: normal;}
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+      "wdth" 100}
  
 .navbar {font-family: "Sour Gummy", sans-serif;
-  font-weight: <500>;
-  font-style: normal;}
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+      "wdth" 100}
 
 /* BACKGROUNDS 
 The first one is for PC, the second is for mobile. You can also use an image in the second one
@@ -65,11 +76,11 @@ background: url('https://i.imgur.com/7aKaCSc.jpeg') center  center fixed;
 background-repeat: no-repeat;
 background-size: cover
 background-size: 100%;
-color: #6e3b1c; } }
+color: #fff0e1; } }
 
 @media screen and (max-width: 600px){
 body {
-background:  #ffd9e0
+background:  #F2AD6C
 background-size: cover;
 color: #f9f9f9; } }
 
@@ -79,9 +90,9 @@ color: #f9f9f9; } }
 width: 7px;
 height: 7px; }
 ::-webkit-scrollbar-track {
-background: #6e3b1c;}
+background: #B5AED0;}
 ::-webkit-scrollbar-thumb {
-background: #a25f36; } 
+background: #DFE0F2; } 
  
 /* HEADERS -
 H1 is the big header that says 'X's Den'
@@ -91,62 +102,68 @@ H3 is used in the side bar (above the energy panel, achievement panel, etc. */
 h1 {font-family: "Aladin", system-ui;
   font-weight: 400;
   font-style: normal;
-color: #24b6d7 !important;
+color: #642329 !important;
 font-size: 64px;
 text-align: center !important;}
 
 h2 {font-family: "Aladin", system-ui;
   font-weight: 400;
   font-style: normal;
-color: #HEX !important;
+color: #121eff !important;
 font-size: 24px;}
 
 h3 {font-family: "Aladin", system-ui;
   font-weight: 400;
   font-style: normal;
-color: #e25d75 !important;
-font-size: 18px;}
+color: #322020 !important;
+font-size: 18px;
+text-shadow: 0px 0px 15px rgb(255,255,255);}
  
 /* LINKS
 Color of links. This will affect all links on your page.
-Plan accordingly. */
- 
+Plan accordingly. */ 
+
 a:link,
 a:visited {
-color: #066577 !important;
-background: none !important; }
+color: #fff1e0  !important;
+background: none !important;}
    
 a:hover {
-color: #00b6e2 !important; }
+color: #ead0fd !important; }
  
 /* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.
 You can make it a solid color by either using a HEX code, or by setting the final number in RGBA to 1.0 */
    
 .container.main {
-background: rgba(247,234,190,0.5);
+background: rgba(231,164,75,0.3);
 border: none;
 box-shadow: none;
 border-radius: 5px; }
 .col-md-9 {
 background: none; } 
+
+ 
  
 /* TOPBAR, NAVBAR, & BREADCRUMB */
  
 .topbar {
-background: #f0d4dd !important;
-color: #db597e !important;
+background: #787a9d !important;
+color: #d0c9eb !important;
 border: none !important;
-border-radius: 0px !important;  }
+border-radius: 0px !important;}
  
 .navbar {
-background: rgba(212,255,255, 0.8) !important;
-color: #HEX !important;
-border: none !important;
-border-radius: 0px !important; }
+background: radial-gradient(circle,rgba(20,13,13,0.8) 0%, 
+    rgba(171,111,103,0.7) 63%, 
+    rgba(255,245,215,0.6) 100%) !important;
+background:-webkit-;
+  -webkit-text-fill-color: rgb(242,238,255);}
 
 .navbar li a:hover {
-background: #dffffe !important;
-color: #00aed0 !important; }
+background: #a6a9d5 !important;
+color: #80789c !important; 
+height: 50px;
+border-radius: 10px}
 
 /* This is mobile collapable navbar color changes.
 toggle is the button that opens the navbar
@@ -168,13 +185,13 @@ border-top: none !important;
 /* Bookmark Bar - aka breadcrumb, this is where your link path is shown */
 
 .breadcrumb {
-background: #ffe3e7 !important;
-color: #e4757b !important;
+background: #DFE0F2 !important;
+color: #B5AED0;
 border: solid 2px !important;
 border-radius: 5px !important;} 
 .breadcrumb .active {
-color: #db5974; }
- 
+color: #7d7599; }
+
 /* ALERTS 
 .alert is all alerts, only set this one if you want all alerts to be the same color
 .alert-success is the green one you see for hunting, patrolling, etc.
@@ -184,9 +201,9 @@ and danger the same color for best results
 (quick notice maybe? more research)*/
  
 .alert {
-background: #bdf0f5!important;
-color: #2dada5 !important;
-border: solid 2px !important;
+background: #AB6F67!important;
+color: #733538 !important;
+border: solid 1px !important;
 border-radius: 5px !important;
 text-align: center !important;  }
 .alert-warning {
@@ -212,10 +229,10 @@ If you want the flippy floppy colors, where one is a little darker than the othe
 */
 
 div#commentBox {
-background: rgba(233,167,167,0.5) !important;
+background: rgba(233,203,167,0.5) !important;
 border: solid 2px !important;
 border-radius: 10px !important;
-color: #cb7c7c !important;}
+color: #916f48 !important;}
 	
 .comment {     
 background: rgba !important;
@@ -254,7 +271,7 @@ border-radius: 0px !important;
 box-shadow: none !important;  } */
  
 .panel {
-background: rgba(255,235,190,0.5) !important;
+background: rgba(52,24,20,0.6) !important;
 color: #HEX !important;
 border: none !important;
 border-radius: 30px !important;
@@ -266,8 +283,8 @@ to the colors you put here.
 Bars will also inherit the border-radius value from this one, so it's
 not needed to specify border-radius for all bars. */
 .progress-bar {
-background: #f0bc80 !important; 
-border-radius: 5px !important; ;}
+background: linear-gradient(90deg,rgb(241,191,161) 0%, rgb(255,241,241) 100%) !important; 
+border-radius: 0px !important; ;}
 
 /* ENERGY */ .progress-bar-warning { 
 background: #HEX !important;
@@ -285,7 +302,7 @@ color: #954b0d !important; }
 
 /* This is the background of the progress bars. */
 .progress {
-background:  #fffcf4;
+background:  rgb(255,241,241);
 color: #HEX !important;
 border-radius: 5px !important;  }
 
@@ -300,37 +317,37 @@ width: 24px !important; }
 
 button#label_currentChannel {
 border: none !important;
-background: rgba(189,241,245,0.8) !important; }
+background: #HEX !important; }
 
 div#chatMessageContainer {
 border: none !important; }
 
 .s-chat-message_timestamp {
-color: #39575c !important; }
+color: #5c3939 !important; }
 
 .s-chat-sidebar #fraChatChannelMenu,
 button.channelSwitcher, button.channelSwitcher.active {
-    background: #d9fcff !important;
-color: #1f3f42 !important;	
+    background: #HEX !important;
+color: #422020 !important;	
 border: none !important;
 border-radius: 0px !important;
 box-shadow: none !important; }
 
 div.emoteList.active {
   background: #HEX !important;
-  border: 2px solid #ade3ee !important;
+  border: 2px solid #d5adee !important;
   box-shadow: none !important;
 }
 div.emoteList.active::before {
 background: #HEX
 border-top: none !important;
-border: 2px solid #ade3ee !important; }
+border: 2px solid #d3adee !important; }
 
 /* PINNED MESSAGES - This will change the background color of where staff pin news */
 
 .s-chat-message__pinned {
-background-color: #bdf5df !important;
-color: #2ead91 !important;
+background-color: #dcbdf5 !important;
+color: #8e2ead !important;
 border: none !important; }
 
 /* Odd will show at the TOP of chat, even will show every other message under it. If you want both colors the same, do
@@ -338,14 +355,14 @@ not touch the even/odd specifications */
 
 .s-chat-message {
 background: #HEX !important;
-color: #HEX !important;
+color: #240433 !important;
 border-bottom: #HEX !important; }
 
 .s-chat-message:nth-child(even) {
-background: #aadce4 !important;
+background: #HEX !important;
 border: none !important; }
 .s-chat-message:nth-child(odd) {
-background: #93cad3 !important;
+background: #HEX !important;
 border: none !important; }
 
 /* This changes the color of pinged messages. Yes, it has to say background-color
@@ -360,7 +377,7 @@ color: #bb8c48 !important; }
 /* This is the character counter, that displays X/150 */
 
 div#lblCharacterCounter {
-color: #243536 !important; }
+color: #312436 !important; }
 
 /* I can't remember what this does but I know things get weird if you touch it
 that means do NOT touch it.
@@ -374,14 +391,14 @@ div.left controls BOTH the dynasty, achievements, showcase, beetle book AND
 view breeding requests, view user log, and view attack history buttons */
  
 .feature {
-background: rgba(226,126,142,0.8) !important;
-color: #ffd0d7 !important;
-border: 7px double #ffcfd6 !important;
+background: rgba(46,28,60,0.8) !important;
+color: #edd0ff !important;
+border: 7px double #eecfff !important;
 border-radius: 10px !important;}
 
 div.left {
-background: rgba(251,230,236,0.8) !important;
-color: #e25d75 !important;
+background: rgba(72,44,83,0.8) !important;
+color: #bd96cc !important;
 border: none !important;
 border-radius: 5px !important; }
 
@@ -404,7 +421,7 @@ th is every other header on your den, like sparring table, reclaim left lions,
 edit details, etc. */
 
 .top, .bottom, th {
-background: #d59c65!important;
+background: #753e2f!important;
 color: #ffe3c7 !important;
 border: none !important;
 border-radius: 5px !important; }
@@ -421,17 +438,17 @@ info about your den, like your territory, your king's stats, etc.
 .inner-table .right is used by the boxes next to the king's info, that displays the actual info. */
  
 .table .left {
-background: rgba(253,126,142,0.6);
+background: rgba(100, 35, 41,0.6);
 border-radius: 0px !important;}
 
 .inner-table .left {
-background: rgba(255,182,191,0.6) !important;
+background: rgba(100, 35, 41,0.6) !important;
 border-radius: 15px 0px 0px 15px !important;  }
 
 .inner-table .right {
-background: rgba(255,219,224,0.6) !important;
+background: rgba(151,100,107,0.6) !important;
 border-radius: 0px 15px 15px 0px !important;
-color: #a62f39 !important; } 
+color: #331c1e !important; } 
 
 .right_odd {
 background: none !important; }
@@ -910,8 +927,8 @@ or fill out both i can't stop you but it'll be a clusterfuck */
 
 /* MEMBER ONLINE */
 .member-online {
-    background: rgba(0,0,0,0);
-    content:url('https://i.imgur.com/mOyVtjO.png')!important;
+    background: rgba(233,197,255,0);
+    content:url('https://i.imgur.com/C8TD6wK.png')!important;
 	border-radius: 0px;
     width:40px!important;
     height:40px;
@@ -920,8 +937,8 @@ or fill out both i can't stop you but it'll be a clusterfuck */
 	
 /* MEMBER OFFLINE */
 .member-offline {
-    background: rgba(0,0,0,0);;
-    content:url('https://i.imgur.com/D6zh3Zh.png')!important;
+    background: rgba(122,122,122,0);;
+    content:url('LINK')!important;
 	border-radius: 0px;
     width:40px!important;
     height:40px;
@@ -965,3 +982,5 @@ z-index: 100; }
             right: 22%;
         }
     }
+</body>
+</html>
