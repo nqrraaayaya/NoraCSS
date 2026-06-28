@@ -645,46 +645,6 @@ background-color: rgba(211,173,103,0.7) !important;
     background-image: url("LINK") !important;
 filter: opacity(0.2) !important;}
 
-/* CUSTOM FOOTNOTE ICONS - MADE BY PANDORA
- Codes made by Pandora #144118  
-Codes may be edited, used in commissions or for personal use
-Please do not remove credit
-*/
-
-/* FOOTNOTE - MUT */
-img[src$="footmut.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
-
-/* FOOTNOTE - HUNT */
-img[src$="foothunt.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
-
-/* FOOTNOTE - HEIR */
-img[src$="footheir.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
-
-/* FOOTNOTE - BREED/HEART */
-img[src$="footbreed.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
-
-/* FOOTNOTE - CROSS/X */
-img[src$="footx.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
-
-/* FOOTNOTE - BIO/BOOK */
-img[src$="footbio.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
-
-/* FOOTNOTE - INFERTILE/BROKEN HEART*/
-img[src$="footinfertile.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
 
 /* This changes the color of the 'badge', aka what displays inbox notifications &
 days till heat for lionesses */
