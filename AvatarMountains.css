@@ -1,5 +1,6 @@
 Avatar Mountains
 
+
 /* jester and katie's free css template -
 made based off of katie's v2 free css template / should be considered v3
 
@@ -39,9 +40,9 @@ box-shadow - a shadow behind the element itself. you usually want this set to no
 */
  
 /* FONTS - Import from Google Fonts */
- 
+<style>{}
 @import url('https://fonts.googleapis.com/css2?family=Aladin&family=Sour+Gummy:wght@600&display=swap');
- 
+</style>
 body {font-family: "Sour Gummy", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -111,7 +112,7 @@ font-family: "Aladin", system-ui;
   font-style: normal;}
 
 h3 {
-color: #585733 !important;
+color: #97965e !important;
 font-size: 18px;
 font-family: "Aladin", system-ui;
   font-weight: 400;
@@ -123,7 +124,7 @@ Plan accordingly. */
  
 a:link,
 a:visited {
-color: #5e5d3b !important;
+color: #86854d !important;
 background: none !important; }
    
 a:hover {
@@ -341,9 +342,10 @@ border: 1px solid #HEX !important; }
 /* PINNED MESSAGES - This will change the background color of where staff pin news */
 
 .s-chat-message__pinned {
-background-color: #c4bf4f !important;
-color: #7F7824 !important;
-border: none !important; }
+background-color: #a29f63 !important;
+color: #605c27 !important;
+border: solid 2px !important;
+color:#605c27 !important; }
 
 /* Odd will show at the TOP of chat, even will show every other message under it. If you want both colors the same, do
 not touch the even/odd specifications */ 
@@ -393,7 +395,7 @@ border-radius: 10px !important;  }
 
 div.left {
 background: #403f1f !important;
-color: #a6a56f !important;
+color: #aaa972 !important;
 border: none !important;
 border-radius: 0px !important; }
 
@@ -770,10 +772,10 @@ height: 250px; }
    
 .Box1 {
 float: left;
-background: #HEX !important;
-color: #HEX !important;
-border: none !important;
-border-radius: 0px !important;
+background: #fdf0e5 !important;
+color: #513e30 !important;
+border: solid 2px !important;
+border-radius: 5px !important;
 padding: 5px;
 float: left;
 height: 75px;
@@ -787,10 +789,10 @@ height: 250px; }
    
 .Box2 {
 float: right;
-background: #HEX !important;
-color: #HEX !important;
-border: none !important;
-border-radius: 0px !important;
+background: #fdf0e5 !important;
+color: #513e30 !important;
+border: solid 2px !important;
+border-radius: 5px !important;
 padding: 5px;
 float: right;
 height: 75px;
@@ -804,10 +806,10 @@ height: 250px; }
 	
 .Box3 {
 float: right;
-background: #HEX !important;
-color: #HEX !important;
-border: none !important;
-border-radius: 0px !important;
+background: #fdf0e5 !important;
+color: #513e30 !important;
+border: solid 2px !important;
+border-radius: 5px !important;
 padding: 5px;
 float: right;
 height: 75px;
@@ -911,8 +913,8 @@ or fill out both i can't stop you but it'll be a clusterfuck */
 
 /* MEMBER ONLINE */
 .member-online {
-    background: #HEX;
-    content:url('none')!important;
+    background: rgba(0,0,0,0);
+    content:url('https://i.imgur.com/x5BUeAR.png')!important;
 	border-radius: 0px;
     width:40px!important;
     height:40px;
@@ -930,116 +932,16 @@ or fill out both i can't stop you but it'll be a clusterfuck */
 	margin-left:10px;
 	filter: saturate(0%); }
 
-/* ALL CURRENCY ICONS - also by kat and pandora 
-if you do not want to change currency icons, simply delete this section of code */
- 
-/* GOLD BEETLE */
-img[src$="gold.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* SILVER BEETLE */
-img[src$="silver.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
-	
-/* EVENT CURRENCY */
- 
-/* JAN */
-img[src$="dermestid.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* FEB */
-img[src$="heartshell.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* MARCH */
-img[src$="beetlerhino.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* APRIL */
-img[src$="easteregg.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
- 
-/* MAY */
-img[src$="beetlemant.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* JUNE */
-img[src$="khepri.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* JULY - METEORITE SHARDS */
-img[src$="shard.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* JULY - AXION CORES */
-img[src$="axion.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* AUG - CARRION BONES */
-img[src$="beetlecarrion.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* AUG - DRY BONES */
-img[src$="bone.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* SEPT - JEWEL BEETLES */
-img[src$="beetlejewel.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* SEPT - ELDRITCH TOKENS */
-img[src$="eldritch.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* OCT - BLOOD BEETLES */
-img[src$="beetleblood.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* OCT - NEPHILIM FEATHERS */
-img[src$="nephelinefeather.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* OCT - DEMON SCALES */
-img[src$="demonicscale.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* NOV */
-img[src$="scarabbeetle.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* DEC */
-img[src$="stinkbug.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
-	
-/* TREASURE HUNT */
-img[src$="icon_doubloon.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
+
 	
 /* IF YOU WANT A CUSTOM CURSOR GO TO https://www.cursors-4u.com/
 AND COPY AND PASTE THE PROVIDED CODE ONCE YOU CLICK THE GET HTML/CSS CODE BUTTON
 DO IT BELOW THIS POINT BUT BEFORE THE CREDIT */
-	
+	/* Cute Brown Spinning Flower - https://www.cursors-4u.com/cursor/cute-brown-spinning-flower */
+* {
+  cursor: url('https://cdn.cursors-4u.net/css-previews/cute-brown-spinning-flower-012de465-css.webp') 0 0, auto !important;
+}
+/* End www.Cursors-4U.com Code */
 /* CREDIT - no touchy this part, the code will work just fine */
  
 .breadcrumb::after {
