@@ -629,14 +629,7 @@ color: #2d2016 !important; }
 table#pride.table .xsmall
 {font-size: 12px !important;}
 
-/* these change the arrows that let you navigate to the next page in caves, if you do not want to change these,
-remove this section of code.
-the arrow icons are 50x30px */
 
-img[src$="arrow.png"] {
-content: url('img') !important;}
-img[src$="arrowgrayleft.png"] {
-content: url('img') !important;}
 
 /* this is entirely optional and can help you add a texture over your featured lion!
 please use https://www.transparenttextures.com/ to find your image
@@ -648,7 +641,7 @@ if you do not want this, delete this section of code.
 you can also use the css provided by transparent textures to make other things have texture! */
 
 div.lion-image-block>img[src$="blank.png"] {
-background-color: #c19d5a !important;
+background-color: rgba(211,173,103,0.7) !important;
     background-image: url("LINK") !important;
 filter: opacity(0.2) !important;}
 
