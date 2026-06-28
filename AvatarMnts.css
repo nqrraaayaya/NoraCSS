@@ -1,5 +1,5 @@
-/*OMFG IT WONT UPDATYE
- jester and katie's free css template -
+
+/* jester and katie's free css template -
 made based off of katie's v2 free css template / should be considered v3
 
 NOTE: THIS IS MADE TO BE AN ULTIMATE TEMPLATE
@@ -38,9 +38,8 @@ box-shadow - a shadow behind the element itself. you usually want this set to no
 */
  
 /* FONTS - Import from Google Fonts */
-<style>{}
+
 @import url('https://fonts.googleapis.com/css2?family=Aladin&family=Sour+Gummy:wght@600&display=swap');
-</style>
 body {font-family: "Sour Gummy", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -473,47 +472,6 @@ just don't use apostraphes (') in the actual text, that messes with the code
     font-size:17px;
     
 }
-
-/* DEN ICON IMAGE REPLACEMENTS - These replace the custom images shown next to message, view trades, etc.
-if you don't want these changed, just do not edit this part. 
-the names are pretty self explanatory
-you can also edit these if you want to add effects to YOUR player image and don't want it to be on these images */
-
-img[src$="icon_den_message.png"] {
-content: url('imagelink') !important;
-width: 24px !important; }
-
-img[src$="icon_den_gift.png"] {
-content: url('imagelink') !important;
-width: 24px !important; }
-
-img[src$="icon_den_trade.png"] {
-content: url('imagelink') !important; 
-width: 24px !important; }
-
-img[src$="icon_den_wishlist.png"] {
-content: url('imagelink') !important;
-width: 24px !important; }
-
-img[src$="icon_den_viewtrade.png"] {
-content: url('imagelink') !important;
-width: 24px !important; }
-
-img[src$="icon_den_gift.png"] {
-content: url('imagelink') !important;
-width: 24px !important; }
-
-img[src$="icon_den_block.png"] {
-content: url('imagelink') !important;
-width: 24px !important; }
-
-img[src$="icon_den_friend.png"] {
-content: url('imagelink') !important;
-width: 24px !important; }
-
-img[src$="donator.png"] {
-content: url('imagelink') !important;
-width: 24px !important; }
 
 /* LION AND USER AVATAR OPACITY */
    
